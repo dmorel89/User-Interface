@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -64,3 +64,92 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+nav li{
+    display: inline-block;
+    margin: 4%;
+  
+}
+.hero{
+    border:2px solid black;
+    margin: 3%;
+    width: 100%;
+}
+.content{
+    display: inline-block;
+    margin:4%;
+    background-color: white;
+  text-align: center
+}
+.content p{
+    border: 1px solid black;
+    width: 45%;
+    padding: 2%;
+    margin-left: 25%
+}
+.content h1{
+    font-size: 70px;
+    height: 47%;
+    padding:3%;
+}
+
+.img-content{
+   display: inline-block;
+    margin-left: 15%;  
+}
+    
+hr{
+    border: 1px solid black;
+    width: 96%;
+    margin-bottom: 2%
+}
+.features{
+    display: inline-block;
+   
+    width: 35%;
+    margin-left: 1%;
+    padding:2%;
+}
+
+.about{
+display: inline-block;
+width: 35%;
+margin-left: 10%;
+padding: 2%;
+}
+
+.section-A{
+    margin-bottom: 4%;
+}
+
+.middle-img{
+   width: 100%;
+       margin-bottom: 4%
+}
+.section-B{
+    margin-bottom: 4%
+}
+
+.services{
+    display: inline-block;
+    width: 25%;
+    margin-left: 5%;
+    padding:2%
+}
+
+.product{
+display: inline-block;
+width: 25%;
+margin-left: 8%;
+padding: 2%
+}
+
+.vision{
+display: inline-block;
+width: 25%;
+margin-left: 8%;
+padding: 1%;
+}
+footer p{
+    text-align: center;
+}
