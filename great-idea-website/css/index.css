@@ -64,22 +64,25 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+.wrapper{
+    width:85%;
+    margin: 0 auto;
+}
 nav li{
     display: inline-block;
     margin: 4%;
+    color: gainsboro;
   
 }
 .hero{
-    border:2px solid black;
     margin: 3%;
     width: 100%;
 }
 .content{
     display: inline-block;
-    margin:4%;
+    margin-left:15%;
     background-color: white;
-  text-align: center
+  width: 25%
 }
 .content p{
     border: 1px solid black;
@@ -91,6 +94,8 @@ nav li{
     font-size: 70px;
     height: 47%;
     padding:3%;
+    line-height:1.5;
+    text-align: center;
 }
 
 .img-content{
@@ -124,7 +129,7 @@ padding: 2%;
 
 .middle-img{
    width: 100%;
-       margin-bottom: 4%
+ margin-bottom: 4%
 }
 .section-B{
     margin-bottom: 4%
